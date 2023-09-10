@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339ec4270c3940efa01c37647157220b, type: 3}
+  m_Name: InfoConfig 1
+  m_EditorClassIdentifier: 
+  description: "Po\u0142ock jest najstarszym miastem na Bia\u0142orusi. Pierwsza
+    wzmianka o nim pojawi\u0142a si\u0119 w \"Opowie\u015Bci minionych lat\" w 862
+    roku.\r\nHistorycznym rdzeniem miasta by\u0142a ufortyfikowana osada Kriwicz\xF3w,
+    kt\xF3ra powsta\u0142a na miejscu starszej osady kultury Banzer na brzegu rzeki
+    Po\u0142ota, niedaleko jej uj\u015Bcia do D\u017Awiny Zachodniej. Wykopaliska
+    archeologiczne w osadzie Po\u0142ock przeprowadzone w 2007 r. przez D. V. Duka
+    wykaza\u0142y, \u017Ce osada by\u0142a zamieszkana ju\u017C w 780 roku. Miejski
+    charakter fortyfikacji osady datuje si\u0119 najwcze\u015Bniej na po\u0142ow\u0119
+    X wieku. Po\u0142ocka fortyfikacja ma co najmniej 13,5 metra wysoko\u015Bci i
+    zajmuje powierzchni\u0119 oko\u0142o 2 hektar\xF3w. 2 ha, u podn\xF3\u017Ca osady
+    znajdowa\u0142 si\u0119 rozwini\u0119ty system niefortyfikowanych osad. \u0141\u0105czna
+    powierzchnia osady po\u0142ockiej wraz z wsiami w okresie IX - koniec X wieku
+    wynosi\u0142a 8 ha. W wiekach IX-X ziemia po\u0142ocka rozwija\u0142a si\u0119
+    niezale\u017Cnie i nie podlega\u0142a wp\u0142ywom Chazar\xF3w i \"ho\u0142du
+    warne\u0144skiego\". Pod koniec X wieku powierzchnia Po\u0142ocka zwi\u0119ksza
+    si\u0119 kilkadziesi\u0105t razy, a w XI wieku powierzchnia Po\u0142ocka wynosi
+    ok. 180 hektar\xF3w. 180 hektar\xF3w. W drugiej \u0107wierci XI wieku Po\u0142ock
+    sta\u0142 si\u0119 jednym z g\u0142\xF3wnych o\u015Brodk\xF3w spo\u0142eczno-gospodarczych
+    i kulturalnych regionu"
+  media: {fileID: 21300000, guid: fe7686b2bf22393418a099632b93b082, type: 3}
+  prefab: {fileID: 4535021811828761538, guid: a20eb8efc2bcd984781e7562cc77d80c, type: 3}

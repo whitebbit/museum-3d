@@ -7,4 +7,5 @@ public abstract class Exhibit: MonoBehaviour, IInteractive
     [SerializeField] protected ExhibitConfig config;
     
     public abstract void Interact();
+    public abstract void FinishInteract();
 }

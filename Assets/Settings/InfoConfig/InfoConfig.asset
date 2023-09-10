@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339ec4270c3940efa01c37647157220b, type: 3}
+  m_Name: InfoConfig
+  m_EditorClassIdentifier: 
+  description: "Pochodzenie nazwy \"Bia\u0142a Ru\u015B\" jest niejasne, pierwsze
+    wzmianki o niej pochodz\u0105 z po\u0142owy XIII wieku.\r\n\r\nJest to jeden
+    z historycznych podzia\u0142\xF3w Rosji wed\u0142ug schematu kolor\xF3w, kt\xF3ry
+    obejmuje r\xF3wnie\u017C Ru\u015B Czarn\u0105 i Czerwie\u0144sk\u0105. W p\xF3\u017Anym
+    \u015Bredniowieczu i wczesnym okresie nowo\u017Cytnym nazwa Bia\u0142a Ru\u015B
+    charakteryzowa\u0142a si\u0119 niestabilno\u015Bci\u0105, oznaczaj\u0105c szereg
+    r\xF3\u017Cnych region\xF3w na terytorium wsp\xF3\u0142czesnej Bia\u0142orusi,
+    Rosji i Ukrainy. Zosta\u0142a utrwalona g\u0142\xF3wnie w \u017Ar\xF3d\u0142ach
+    zachodnioeuropejskich, pocz\u0105wszy od po\u0142owy XIII wieku.\r\n\"Obecnie
+    zwykli ludzie na Bia\u0142orusi nie znaj\u0105 tej nazwy. Na pytanie, kim jeste\u015B,
+    posp\xF3lstwo odpowiada - Rosjaninem, a je\u015Bli jest katolikiem, nazywa siebie
+    albo katolikiem, albo Polakiem; czasami nazywa swoj\u0105 ojczyzn\u0119 Litw\u0105,
+    a nawet po prostu m\xF3wi, \u017Ce jest \"tutejszy\" - miejscowy, oczywi\u015Bcie
+    przeciwstawiaj\u0105c si\u0119 osobie m\xF3wi\u0105cej po wielkorosyjsku, jako
+    przybysz na ziemie zachodnie\". E. \u0472. Karskij. - Bialorusini. Vol. I, Ch.
+    V., s. 116.\r\n\r\n\"- Kim jeste\u015B? Do jakiego narodu nale\u017Cycie? - Kim
+    jeste\u015Bmy? Jeste\u015Bmy Rosjanami. - Jakimi Rosjanami? Wielkimi Rosjanami?
+    - Nie, jakimi Wielkimi Rosjanami jeste\u015Bmy? Nie, nie jeste\u015Bmy Moskalami.
+    - Kim jeste\u015Bmy? - Jeste\u015Bmy Litwinami, Litwinami\"."
+  media: {fileID: 21300000, guid: b00e1286c5d0dac46b22dabfd25a4240, type: 3}
+  prefab: {fileID: 2828833344353179187, guid: 804531215ea7ba44b96c932f14683f5a, type: 3}

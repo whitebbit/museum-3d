@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c0e5aaa0d6474a9bf8c9e08c8ce773, type: 3}
+  m_Name: QuestionConfig 1
+  m_EditorClassIdentifier: 
+  question: "W kt\xF3rym roku odnotowano pierwsz\u0105 wzmiank\u0119 o mie\u015Bcie
+    Po\u0142ock?"
+  answers:
+  - text: 726
+    accuracy: 0
+  - text: 862
+    accuracy: 1
+  - text: 1005
+    accuracy: 0
+  - text: 962
+    accuracy: 0

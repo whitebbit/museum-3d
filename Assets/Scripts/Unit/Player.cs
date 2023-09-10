@@ -22,12 +22,17 @@ public class Player : Unit
     
     private void Update()
     {
+        if(UIManager.Instance.UIOpened)
+            return;
+        
         Rotate();
         Interact();
     }
     
     private void FixedUpdate()
     {
+        if(UIManager.Instance.UIOpened)
+            return;
         Move();
     }
 
@@ -35,11 +40,19 @@ public class Player : Unit
     {
         if (_detector.Detected())
         {
-            var interactive = _detector.GetDetectedObject<IInteractive>();
-            if(interactive != null)
-                interactive.Interact();
+            TryInteract();
         }
     }
+
+    private void TryInteract()
+    {
+        var interactive = _detector.GetDetectedObject<IInteractive>();
+        if (interactive == null)
+            return;
+        
+        interactive.Interact();
+    }
+
     private void Move()
     {
         Vector2 axis = InputService.GetMovementAxis();

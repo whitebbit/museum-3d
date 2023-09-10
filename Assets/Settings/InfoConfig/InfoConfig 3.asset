@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339ec4270c3940efa01c37647157220b, type: 3}
+  m_Name: InfoConfig 3
+  m_EditorClassIdentifier: 
+  description: "Mi\u0144sk - miasto zosta\u0142o po raz pierwszy wspomniane w \"Opowie\u015Bci
+    minionych lat\" podczas bitwy nad Niemnem w 1067 roku. Najwcze\u015Bniejsze osady
+    na terytorium wsp\xF3\u0142czesnego miasta si\u0119gaj\u0105 IX wieku. Dolina
+    rzeki \u015Awis\u0142ocz zosta\u0142a zasiedlona przez dwa wschodnios\u0142owia\u0144skie
+    plemiona: Krywicz\xF3w i Dregowicz\xF3w. Oko\u0142o 980 r. terytorium wsp\xF3\u0142czesnego
+    miasta sta\u0142o si\u0119 cz\u0119\u015Bci\u0105 ksi\u0119stwa po\u0142ockiego.\r\nPo
+    \u015Bmierci Wsiewo\u0142oda Bryczes\u0142awicza w 1101 r. jego synowie podzielili
+    posiad\u0142o\u015Bci ojca na apana\u017Ce, w wyniku czego Menesk sta\u0142 si\u0119
+    stolic\u0105 odr\u0119bnego ksi\u0119stwa. Pierwszym ksi\u0119ciem Meneska zosta\u0142
+    Gleb Wsie\u0142awicz. Status stolicy i korzystne po\u0142o\u017Cenie geograficzne
+    sprzyja\u0142y rozwojowi gospodarczemu miasta i jego przekszta\u0142ceniu w wa\u017Cny
+    o\u015Brodek handlowy i rzemie\u015Blniczy, o czym \u015Bwiadcz\u0105 wyniki
+    wykopalisk archeologicznych. Jednak cz\u0119ste wewn\u0119trzne wojny mi\u0119dzy
+    ksi\u0105\u017C\u0119tami (znane kampanie przeciwko Meneskowi w latach 1119,
+    1159, 1160, 1161) utrudnia\u0142y dobrobyt miasta."
+  media: {fileID: 21300000, guid: 3c746328c6795854e8d73c6a8acffb28, type: 3}
+  prefab: {fileID: 7343714827645813842, guid: d1f9a16d5d967e041a2b3cdd1d7fc75f, type: 3}

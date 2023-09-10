@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339ec4270c3940efa01c37647157220b, type: 3}
+  m_Name: InfoConfig 4
+  m_EditorClassIdentifier: 
+  description: "Wincenty Konstanty Kalinowski (bia\u0142orus. Wincenty Konstanty
+    Kalinowski; ur. 21 stycznia [2 lutego] 1838 w Mostowlanach, powiat grodzie\u0144ski,
+    gubernia grodzie\u0144ska, Imperium Rosyjskie - stracony 10 [22] marca 1864 w
+    Wilnie, gubernia wile\u0144ska, Imperium Rosyjskie przez powieszenie) - bia\u0142oruski
+    i polski rewolucjonista, publicysta, poeta, jeden z przyw\xF3dc\xF3w polskiego
+    powstania 1863 roku na terenach obecnej Bia\u0142orusi i Litwy. We wsp\xF3\u0142czesnej
+    Polsce, na Litwie i Bia\u0142orusi uwa\u017Cany za bohatera narodowego.\r\n20
+    stycznia (1 lutego) 1863 r. stan\u0105\u0142 na czele Tymczasowego Rz\u0105du
+    Prowincjonalnego Litwy i Bia\u0142orusi utworzonego w miejsce Litewskiego Komitetu
+    Prowincjonalnego, kt\xF3ry zosta\u0142 rozwi\u0105zany 27 lutego (11 marca),[27]
+    po czym Kalinowski zosta\u0142 odsuni\u0119ty od kierowania powstaniem i skierowany
+    na stanowisko komisarza rewolucyjnego wojew\xF3dztwa grodzie\u0144skiego. W czerwcu
+    1863 r. ponownie stan\u0105\u0142 na czele powstania na Bia\u0142orusi i Litwie[28].
+    W warunkach ostrych dzia\u0142a\u0144 si\u0142 rz\u0105dowych, b\u0119d\u0105c
+    w g\u0142\u0119bokiej konspiracji, Kalinowski przewodzi\u0142 powsta\u0144com
+    a\u017C do aresztowania, kt\xF3re nast\u0105pi\u0142o w nocy z 16 na 17 (28 na
+    29) stycznia 1864 roku.\r\n\r\nPodczas \u015Bledztwa by\u0142 stanowczy i pewny
+    siebie. W zamian za zmniejszenie wyroku odm\xF3wi\u0142 podania swoich kryj\xF3wek
+    i hase\u0142, a tak\u017Ce nazwisk innych przyw\xF3dc\xF3w powstania. 42 dni
+    po aresztowaniu, 12 marca 1864 r., zosta\u0142 skazany na \u015Bmier\u0107 przez
+    rozstrzelanie. Jednak nast\u0119pnego dnia, na osobist\u0105 pro\u015Bb\u0119
+    M.N. Murawjowa, pluton egzekucyjny zosta\u0142 zast\u0105piony publicznym powieszeniem.\r\n\r\nUwa\u017Ca
+    si\u0119, \u017Ce b\u0119d\u0105c skazanym na \u015Bmier\u0107, Konstantin Kalinowski
+    kontynuowa\u0142 swoj\u0105 walk\u0119, zwracaj\u0105c si\u0119 do ludzi \"Listami
+    spod szubienicy\". Listy te pokazywa\u0142y, \u017Ce Kalinowski nie uznawa\u0142
+    w\u0142adzy rosyjskiej za w\u0142asn\u0105 dla Bia\u0142orusin\xF3w i wzywa\u0142
+    ich do walki \"za swojego Boga, za swoje prawo, ... za swoj\u0105 Ojczyzn\u0119\".\r\n\r\n10
+    (22) marca 1864 r. zosta\u0142 stracony przez powieszenie w Wilnie na Placu \u0141ukiskim.
+    Podczas ostatniego og\u0142oszenia wyroku po s\u0142owach \"Skaza\u0107 szlachcica
+    Kalinowskiego...\" wykrzycza\u0142 swoje s\u0142ynne zdanie: \"Nie mamy szlachty,
+    wszyscy jeste\u015Bmy r\xF3wni!\". (Bia\u0142oruski: \"Nie mamy szlachty, mamy
+    wszystkich szlachcic\xF3w!\")."
+  media: {fileID: 21300000, guid: 27d857565bfde0943a38f7ba7a04f1c5, type: 3}
+  prefab: {fileID: 7554167623555697198, guid: e01dd55ef2a3c39429e117269fe4d4e9, type: 3}

@@ -15,6 +15,7 @@ public abstract class UIPanel : MonoBehaviour
     {
         _canvasGroup = GetComponent<CanvasGroup>();
         _canvasGroup.alpha = 0;
+        _canvasGroup.blocksRaycasts = false;
         Initialize();
     }
 
@@ -33,12 +34,20 @@ public abstract class UIPanel : MonoBehaviour
 
     private void OpenPanel()
     {
-        _canvasGroup.DOFade(1, 1);
+        UIManager.Instance.UIOpened = true;
+        Cursor.lockState = CursorLockMode.None;
+        
+        _canvasGroup.blocksRaycasts = true;
+        _canvasGroup.DOFade(1, .5f);
     }
 
     private void ClosePanel()
     {
-        _canvasGroup.DOFade(0, 1);
+        UIManager.Instance.UIOpened = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+        _canvasGroup.blocksRaycasts = false;
+        _canvasGroup.DOFade(0, .5f);
     }
 
     protected abstract void Initialize();
