@@ -1,4 +1,6 @@
-﻿using TMPro;
+﻿using DG.Tweening;
+using TMPro;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
@@ -25,12 +27,29 @@ public class QuizButton
     {
         _button.gameObject.SetActive(active);
     }
+
+    private void CreateAction(bool answer, UnityAction action)
+    {
+        var transform = _button.transform;
+        var startColor = _button.image.color;
+        var color = answer ? Color.green : Color.red;
+        
+        _button.image
+            .DOColor(color, .5f)
+            .OnComplete(() => 
+                {
+                    _button.image.color = startColor;
+                    action?.Invoke();
+                });
+        
+    }
     
     private void SetButtonAction(Answer answer, UnityAction correctAction, UnityAction wrongAction)
     {
         _button.onClick.RemoveAllListeners();
         UnityAction action = answer.accuracy ? correctAction : wrongAction;
-        _button.onClick.AddListener(action);
+        
+        _button.onClick.AddListener(() => CreateAction(answer.accuracy, action));
     }
 
 }
